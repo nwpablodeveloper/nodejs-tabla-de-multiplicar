@@ -7,8 +7,6 @@ const crearArchivo = async ( base = 1, listar, hasta = 10) => {
 
         let salida, consola = '';
     
-
-    
         for (let i = 0; i <= hasta ; i++) {
 
             consola += ' ' + colors.brightBlue( base ) ;
